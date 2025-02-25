@@ -5,7 +5,7 @@ le but de ce projet est mettre en place une infrastructure sur AWS pour la creat
 
 ## Arborescence du projet
 
-Voici l'arborescence de mon projet :
+Voici l'arborescence de notre projet :
 
 ```
 project/
@@ -36,6 +36,7 @@ project/
 │   │   └── variable.tf
 ├── README.md
 ├── out/
+├── in/
 └── .gitignore 
 ```
 
@@ -46,5 +47,7 @@ nous utilisons le s3 pour stocker le tfsate de notre projet. ainsi le repertoire
 le repertoire out contient nos elements de sorties c'est a dire ip publique de l'instance crée et son nom de domaine.
 ![cover](img/output_ip_dns.png)
 ![cover](img/ec2_state.png)
+
+le repertoire in contient les inputs files (pour notre cas le docker compose contenant les images jenkins que nous demarrons avec les provisioners remote_exec )
 ![cover](img/startjenkins.png)
 ![cover](img/webjenkins.png)
