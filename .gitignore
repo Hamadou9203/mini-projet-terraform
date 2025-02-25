@@ -1,0 +1,3 @@
+.secrets/
+app/.terraform/
+s3/.terraform/

@@ -1,0 +1,1 @@
+PUBDNS: ec2-34-199-132-173.compute-1.amazonaws.com; PUB_IP : 34.199.132.173
