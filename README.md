@@ -42,8 +42,27 @@ project/
 
 nous utilisons le s3 pour stocker le tfsate de notre projet. ainsi le repertoire s3 contient les informations necessaire a la ccreation de notre s3 bucket.
 
+tous d'abord il faut creer le bucket s3 
+```
+cd /s3
+terraform validate 
+terraform plan 
+terraform apply
+
+```
+
 ![cover](img/bakendtfstate.png)
 ![cover](img/s3.png)
+
+pour lancer notre code nous avons avons d'etre dans le repertoire app
+```
+cd /app 
+terraform validate 
+terraform plan 
+terraform apply
+
+```
+
 le repertoire out contient nos elements de sorties c'est a dire ip publique de l'instance crée et son nom de domaine.
 ![cover](img/output_ip_dns.png)
 ![cover](img/ec2_state.png)
