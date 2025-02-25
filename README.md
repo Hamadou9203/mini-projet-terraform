@@ -6,6 +6,8 @@ le but de ce projet est mettre en place une infrastructure sur AWS pour la creat
 ## Arborescence du projet
 
 Voici l'arborescence de mon projet :
+
+```
 project/
 ├── app/
 │   ├── main.tf
@@ -34,7 +36,8 @@ project/
 │   │   └── variable.tf
 ├── README.md
 ├── out/
-└── .gitignore
+└── .gitignore 
+```
 
 nous utilisons le s3 pour stocker le tfsate de notre projet. ainsi le repertoire s3 contient les informations necessaire a la ccreation de notre s3 bucket.
 
