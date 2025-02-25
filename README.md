@@ -54,7 +54,7 @@ terraform apply
 ![cover](img/bakendtfstate.png)
 ![cover](img/s3.png)
 
-pour lancer notre code nous avons avons d'etre dans le repertoire app
+pour lancer notre code nous avons avons besoin d'être dans le repertoire app
 ```
 cd /app 
 terraform validate 
