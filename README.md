@@ -42,7 +42,7 @@ project/
 
 nous utilisons le s3 pour stocker le tfsate de notre projet. ainsi le repertoire s3 contient les informations necessaire a la ccreation de notre s3 bucket.
 
-tous d'abord il faut creer le bucket s3 
+tout d'abord il faut creer le bucket s3 
 ```
 cd /s3
 terraform validate 
